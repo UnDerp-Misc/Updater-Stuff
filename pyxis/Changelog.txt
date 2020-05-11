@@ -1,0 +1,91 @@
+CHANGELOG ROM AND DT FOR PYXIS
+#MICC9 #MI9LITE #PYXIS
+
+UnDerp Covid19 Changelog
+
+Please check all commit on git to know what change from source.
+
+====================
+     05-11-2020
+====================
+
+[manifest]
+manifest: Moved ANX to local 
+Revert "manifest: track Razer" 
+
+[frameworks/base]
+base: addition add animations for system 
+Fw_base - Breathing missedcall/sms/voicemail [1/5] 
+Revert "Unlock keystore with fingerprint after reboot (1/2)" 
+Add option to disable scrolling cache [1/2] 
+base: update derpshit string vn 
+Add kill button to notification guts [1/2] 
+base: Add refresh rate setting [1/2] 
+Enlarge EPSILON to 0.01 for android.display.cts.DisplayTest#testModeSwitch 
+FWB: Dialer auto proximity speakerphone [1/2] 
+
+[packages/apps/DerpQuest]
+Breathing missedcall/sms/voicemail [5/5]
+Revert "Unlock keystore with fingerprint after reboot (2/2)"
+Add kill button to notification guts [2/2] 
+
+[vendor/google-customization]
+google-customization: Build with ModuleMetadataGooglePrebuilt for all devices [device/xiaomi/pyxis]
+pyxis: Fix some audio volumes 
+by: faust93 (monumentum@gmail.com)
+pyxis: nuke gapps and snap 
+by: mrhainavn (mr.hai.na.vn@gmail.com)
+
+====================
+     05-10-2020
+====================
+
+[manifest]
+manifest: track some repos for kek 
+
+[packages/apps/Dialer]
+Dialer - Breathing missedcall/sms/voicemail [2/5] 
+
+[packages/apps/Messaging]
+Messaging - Breathing missedcall/sms/voicemail [4/5] 
+
+[packages/services/Telephony]
+services/Telephony - Breathing missedcall/sms/voicemail [3/5]
+
+[vendor/aosip]
+vendor: Include aosp apps if build type VANILLA
+, don't forget rm -rf vendor/gapps before build 
+
+[packages/apps/DerpQuest]
+Add option to disable scrolling cache [2/2] 
+Return: Listanimation Views and Interpolator [2/2] 
+XuiMod: Toast Animations [2/2]
+
+====================
+     05-09-2020
+====================
+
+[frameworks/base]
+AbsListView: Fix widget couldn't find any view fc 
+Return: Listanimation Views and Interpolator [1/2] 
+FW_Base - XuiMod: Toast Animations [1/2]
+Add interpolators to qs tiles animation [1/2] 
+Add faster qs tile animation speeds (1/2) 
+Add animations to quick settings tiles [1/2]
+Revert "toasts: Use Animation_Toast_Material"
+Status bar: Update notification count icons
+Show infinity for large notification counts
+SystemUI: Forward-port notification counters [1/2]
+
+[frameworks/native]
+Fix 44237b48c6849d7bdbcb1a5e9558d43d44015081 
+sf: PhaseOffsets: Add missing low refresh rates 
+
+[packages/apps/Settings]
+Settings: Add refresh rate setting [2/2]
+settings: update abit vn 
+Settings: Update logo about version UnDerpKang
+
+[vendor/aosip]
+Revert "vendor: add Razer game config" 
+...............
